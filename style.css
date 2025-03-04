@@ -13,7 +13,9 @@ body{
     height: 170px;
     position: absolute;
     cursor:grab;
-    background-color: rgb(123, 187, 252);
+    background-color: rgb(109, 145, 182);
+    left:30%;
+    top:20%;
 }
 #sun{
     background-color: rgb(253, 223, 102);
