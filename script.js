@@ -29,6 +29,12 @@ function areaOverlap(){
 }
 function updateBackGround(){
     let overlap=areaOverlap();
+    if(overlap>0){
+        moon.classList.add("overlapping");
+    }else{
+        moon.classList.remove("overlapping");
+    }
+
     //rgb(65, 163, 243);
     let r1=65,g1=163,b1=243;
 
